@@ -1,0 +1,29 @@
+{
+    "name": "Updated smartphones",
+    "url": "https://prismic-eleventy-phones.now.sh",
+    "author": {
+        "name": "António Ferreira",
+        "email": "antonioavf@gmail.com",
+        "handle": "@aavf1_",
+        "avatar": "/images/blog/author.jpg"
+    },
+    "images": {
+        "favicon": "/images/favicon.png"
+    },
+    "social_links": {
+        "github": "https://github.com/aavf",
+        "linkedin": "https://www.linkedin.com/in/antonioavf"
+    },
+    "address": {
+        "street": "123 Fake Street",
+        "street_2": "Fake Road",
+        "city": "London",
+        "postcode": "LN1 234",
+        "country": "GB"
+    },
+    "contact": {
+        "phone": "123 456 789",
+        "mobile": "(+44) 1234 5678",
+        "email": "antonioavf@gmail.com"
+    }
+}

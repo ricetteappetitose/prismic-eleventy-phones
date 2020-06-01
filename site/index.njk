@@ -1,0 +1,74 @@
+---
+layout: default
+meta_title: Updated phones
+meta_description: updated smartphones
+body_class: blog
+title: Updated smartphones Home
+---
+
+<main id="main" class="main inner flex flex-1 flex-col py-10 focus:outline-none" tabindex="-1">
+
+    <section id="container-centre" class="column centre flex-1" aria-label="Blogs">
+
+        <h1 class="page-title mb-15 text-3xl">Android 11 <small>(beta soon)</small></h1>
+
+        <div class="posts flex flex-wrap">
+
+            {% for phone in collections.androidLatest %}
+
+              {% include 'components/item-newest.njk' %}
+
+            {% endfor %}
+
+        </div>
+
+    </section> 
+ 
+ 
+    <section id="container-centre" class="column centre flex-1" aria-label="Blogs">
+
+        <h1 class="page-title mb-15 mt-4 text-3xl">Android 10 <small>(first phones to update)</small></h1>
+
+        <div class="posts flex flex-wrap">
+
+            {% for phone in collections.androidPhones %}
+
+              {% include 'components/item.njk' %}
+
+            {% endfor %}
+
+        </div>
+
+
+        <h1 class="page-title mb-15 mt-4 text-2xl">Android 10 <small>longest support</small></h1>
+
+        <div class="posts flex flex-wrap">
+
+            {% for phone in collections.androidLongest %}
+              
+              {% include 'components/item.njk' %}
+
+            {% endfor %}
+
+        </div>
+    </section>
+
+
+    <section id="container-centre" class="column centre flex-1" aria-label="Blogs">
+
+        <h1 class="page-title mb-15 mt-4 text-3xl">iOS 13 <small>longest support</small></h1>
+
+        <div class="posts flex flex-wrap">
+
+            {% for phone in collections.iOSlongest %}
+              
+              {% include 'components/item.njk' %}
+
+            {% endfor %}
+
+        </div>
+    </section>
+
+</main>
+
+

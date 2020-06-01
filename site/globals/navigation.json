@@ -1,0 +1,12 @@
+{
+    "main": [
+        {
+            "label": "Home",
+            "url": "/"
+        },
+        {
+            "label": "All Phones",
+            "url": "/all-phones/"
+        }
+    ]
+}

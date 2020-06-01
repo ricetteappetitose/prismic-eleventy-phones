@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://prismic-eleventy-phones.netlify.com/sitemap.xml
