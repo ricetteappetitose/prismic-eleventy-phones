@@ -1,0 +1,14 @@
+[
+  {
+    "id": "phone",
+    "name": "phone",
+    "repeatable": true,
+    "value": "phone.json"
+  },
+  {
+    "id": "os_version",
+    "name": "OS Version",
+    "repeatable": true,
+    "value": "os_version.json"
+  }
+]

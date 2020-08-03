@@ -1,0 +1,81 @@
+{
+  "Main" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "id"
+      }
+    },
+    "name" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2, heading3, heading4, heading5, heading6",
+        "label" : "name"
+      }
+    },
+    "brand" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "OnePlus", "Google", "Xiaomi", "Asus", "Realme", "Apple" ],
+        "label" : "brand"
+      }
+    },
+    "os_versions" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "ver_name" : {
+            "type" : "Link",
+            "config" : {
+              "select" : "document",
+              "customtypes" : [ "os_version" ],
+              "label" : "Version name"
+            }
+          },
+          "updated" : {
+            "type" : "Date",
+            "config" : {
+              "label" : "updated"
+            }
+          },
+          "source1" : {
+            "type" : "Link",
+            "config" : {
+              "allowTargetBlank" : true,
+              "label" : "source"
+            }
+          }
+        },
+        "label" : "OS Versions"
+      }
+    },
+    "released" : {
+      "type" : "Date",
+      "config" : {
+        "label" : "Released date"
+      }
+    },
+    "year" : {
+      "type" : "Number",
+      "config" : {
+        "label" : "Released Year"
+      }
+    },
+    "os" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "Android", "iOS" ],
+        "default_value" : "Android",
+        "label" : "OS"
+      }
+    },
+    "image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "image"
+      }
+    }
+  }
+}
